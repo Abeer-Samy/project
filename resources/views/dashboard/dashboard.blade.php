@@ -246,7 +246,7 @@
                         <!-- /.card-header -->
                         <div class="card-body p-0">
                             <div class="d-md-flex">
-                                <div class="p-1 flex-fill" style="overflow: hidden">
+                                <div class="p-1 flex-fill" style="overfl        ow: hidden">
                                     <!-- Map will be created here -->
                                     <div id="world-map-markers" style="height: 325px; overflow: hidden">
                                         <div class="map"></div>

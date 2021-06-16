@@ -7,7 +7,6 @@ use App\Menu;
 use DB;
 use Session;
 use App\Reservations;
-use App\Category;
 use App\Http\Requests\ReservationRequest;
 
 
@@ -45,21 +44,9 @@ class ReservationController extends Controller
      */
     public function store(ReservationRequest $request)
     {
-        $reservation = new Reservations();
-        $reservation->name = $request->name;
-        $reservation->email = $request->email;
-        $reservation->phoneNumber = $request->phoneNumber;
-        $reservation->numOfPerson = $request->numOfPerson;
-        $reservation->menu_id = $request->menu_id;
-        $reservation->tableRes = $request->tableRes;
-
-
-        $fileImage = $request->file('fileImage');
-        $fileName = time().'.'.$fileImage->extension();
-        $fileImage->move('file_image',$fileName);
-        $reservation->feature_image = $fileName;
-        $reservation->save();
-
+        $requestData=$request->all();
+        $request=$request->all();
+        Reservations::Create($request);
         Session::flash("msg","s:Reservation Created Successfully");
         return redirect(route("dashboard.reservations.index"));
 
@@ -87,11 +74,18 @@ class ReservationController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function edit(Reservations $reservation)
+    public function edit($id)
     {
-        $menus = Menu::all();
-        return view("dashboard.reservations.edite",compact('reservation','menus'));
 
+        $item = Reservations::find($id);
+        if(!$item){
+
+            \Session::flash("msg","e:Invalid Item ID");
+
+            return redirect(route("reservation.index"));
+        }
+        $menus = Menu::all();
+        return view("dashboard.reservations.edite",compact('item','menus'));
     }
 
     /**
@@ -101,20 +95,13 @@ class ReservationController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(ReservationRequest $request , Reservations $reservation)
+    public function update(ReservationRequest $request , $id)
     {
-  dd($request)->toArray;
+        $itemDB = Reservations::find($id);
+        $requestData = $request->all();
+        $itemDB->update($requestData);
 
-        $reservation->name = $request->name;
-        $reservation->email = $request->email;
-        $reservation->phoneNumber = $request->phoneNumber;
-        $reservation->numOfPerson = $request->numOfPerson;
-        $reservation->tableRes = $request->tableRes;
-        $reservation->menu_id = $request->menu_id;
-        $reservation->save();
-
-
-       session()->flash("msg","s:Student Updated Successfully");
+        session()->flash("msg","s:Student Updated Successfully");
    return redirect(route("dashboard.reservations.index"));
 
     }

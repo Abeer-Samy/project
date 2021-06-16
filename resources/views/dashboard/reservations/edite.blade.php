@@ -3,10 +3,8 @@
 @section('content')
     <!-- Main content -->
     <section class="content">
-        <form method="POST" action="{{route('dashboard.reservations.index',$reservation)}}" >
-            @method('PUT')
+        <form method="POST" action="{{route("dashboard.reservations.index")}}" >
             @csrf
-
             <div class="row">
                 <div class="col-md-12">
                     <div class="card card-primary">
@@ -23,33 +21,33 @@
                         <div class="card-body">
                             <div class="form-group">
                                 <label for="inputName">Name</label>
-                                <input type="text" name="name" value="{{$reservation->name}}" class="form-control">
+                                <input type="text" name="name" value="{{old("name",$item->name)}}" class="form-control">
                             </div>
 
                             <div class="form-group">
                                 <label for="inputName"> Email</label>
-                                <input type="text" name="email" value="{{$reservation->email}}" class="form-control">
+                                <input autofocus='true' type="text" name="email" value="{{old("email",$item->email) }}" class="form-control">
 
                             </div>
 
                             <div class="form-group">
                                 <label for="inputName"> Phone Number</label>
-                                <input type="text" name="phoneNumber" value="{{$reservation->phoneNumber}}" class="form-control">
+                                <input autofocus='true' type="text" name="phoneNumber" value="{{old("phoneNumber",$item->phoneNumber)}}" class="form-control">
                             </div>
 
                             <div class="form-group">
                                 <label for="inputName">Number Of Person</label>
-                                <input type="text" name="numOfPerson" value="{{$reservation->numOfPerson}}" class="form-control">
+                                <input autofocus='true' type="text" name="numOfPerson" value="{{old("numOfPerson",$item->numOfPerson)}}" class="form-control">
                                 <label for="inputName">Table Reservatin Number</label>
-                                <input type="text" name="tableRes" value="{{$reservation->tableRes}}" class="form-control">
+                                <input autofocus='true' type="text" name="tableRes" value="{{old("tableRes",$item->tableRes)}}" class="form-control">
                             </div>
 
                             <div class="form-group">
                                 <label for="inputStatus">Menu</label>
                                 <select class="form-control custom-select" name="menu_id">
                                     @foreach($menus as $menu)
-                                        <option value="{{$menu->id}}"
-                                                {{$reservation->menu_id == $menu->id ? 'selected' : ''}}
+                                        <option autofocus='true'  value="{{$menu->id}}"
+                                                {{old("menu_id",$item->menu_id) == $menu->id ? 'selected' : ''}}
                                         >{{$menu->nameOfMeal}}</option>
                                     @endforeach
                                 </select>
@@ -64,7 +62,7 @@
             <div class="row">
                 <div class="col-12">
                     <a href="{{route("dashboard.reservations.index")}}" class="btn btn-secondary">Cancel</a>
-                    <input type="submit" value="Update Reservation" class="btn btn-success float-right">
+                    <button type="submit"  class="btn btn-success float-right">Update</button>
                 </div>
             </div>
         </form>

@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9b451283-db51-4bc2-87c7-1a76b8fc1db8" name="Default Changelist" comment="" />
+    <list default="true" id="9b451283-db51-4bc2-87c7-1a76b8fc1db8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Category.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Category.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Dashboard/ReservationController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Dashboard/ReservationController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Requests/ReservationRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/ReservationRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Reservation.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Reservations.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Reservations.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/factories/CartegoryFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/CartegoryFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/factories/ReservationsFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/ReservationsFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_11_21_154936_create__reservations__table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_11_21_154936_create__reservations__table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_11_28_223955_create_categories_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_11_28_223955_create_categories_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/dashboard/dashboard.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/dashboard/dashboard.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/dashboard/layouts/menu.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/dashboard/layouts/menu.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/dashboard/reservations/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/dashboard/reservations/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/dashboard/reservations/edite.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/dashboard/reservations/edite.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/dashboard/reservations/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/dashboard/reservations/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,6 +37,9 @@
         <option value="composer.json" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -139,6 +160,7 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1kWMVXCC3Ll9hsQztzrxTOB3pxh" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -147,7 +169,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="D:/Tamkeen/intro" />
+    <property name="last_opened_file_path" value="D:/Tamkeen/4/add image" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -159,14 +181,14 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\wamp64\www\laravel7\routes\api" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\wamp64\www\laravel7\app\Http\Controllers\Dashboard" />
       <recent name="C:\wamp64\www\laravel7\app\Http\Controllers\API" />
       <recent name="C:\wamp64\www\laravel7\routes\api" />
       <recent name="C:\wamp64\www\laravel7\resources\views\frontsite\layout" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\laravel7\routes\api" />
     </key>
   </component>
   <component name="RunManager">
@@ -204,7 +226,40 @@
       <workItem from="1609367797104" duration="9243000" />
       <workItem from="1609407989292" duration="3523000" />
       <workItem from="1609434021376" duration="75087000" />
-      <workItem from="1609561381563" duration="4378000" />
+      <workItem from="1609561381563" duration="4976000" />
+      <workItem from="1609700209845" duration="627000" />
+      <workItem from="1610291060964" duration="8314000" />
+      <workItem from="1610313681156" duration="2456000" />
+      <workItem from="1610551972064" duration="4217000" />
+      <workItem from="1610618096943" duration="3285000" />
+      <workItem from="1610821571582" duration="599000" />
+      <workItem from="1611099153315" duration="600000" />
+      <workItem from="1612623462383" duration="5540000" />
+      <workItem from="1612716883796" duration="2736000" />
+      <workItem from="1612776883254" duration="599000" />
+      <workItem from="1612975058402" duration="4621000" />
+      <workItem from="1613164237175" duration="255000" />
+      <workItem from="1613170480758" duration="1149000" />
+      <workItem from="1613329970449" duration="2100000" />
+      <workItem from="1614855721008" duration="2317000" />
+      <workItem from="1614865260671" duration="531000" />
+      <workItem from="1614888065232" duration="660000" />
+      <workItem from="1614976142464" duration="615000" />
+      <workItem from="1617864831768" duration="3557000" />
+      <workItem from="1618344122983" duration="422000" />
+      <workItem from="1618909838138" duration="7000" />
+      <workItem from="1619944251282" duration="1338000" />
+      <workItem from="1620012955663" duration="563000" />
+      <workItem from="1622041559768" duration="1244000" />
+      <workItem from="1623004962455" duration="145000" />
+      <workItem from="1623142604204" duration="557000" />
+      <workItem from="1623182509823" duration="599000" />
+      <workItem from="1623477506175" duration="1230000" />
+      <workItem from="1623521820610" duration="1494000" />
+      <workItem from="1623613336616" duration="1355000" />
+      <workItem from="1623746567185" duration="111000" />
+      <workItem from="1623790229896" duration="5000" />
+      <workItem from="1623817836069" duration="16430000" />
     </task>
     <servers />
   </component>
@@ -212,46 +267,22 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="428" y="173" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1609555549814">
+    <state x="413" y="121" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1623846113983">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="428" y="173" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1609555549814" />
-    <state x="444" y="148" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1609563411954">
+    <state x="413" y="121" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1623846113983" />
+    <state x="526" y="193" key="FileChooserDialogImpl" timestamp="1623822087661">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="444" y="148" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1609563411954" />
-    <state x="499" y="167" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1536.824@0.0.1536.824" timestamp="1605975393360" />
-    <state x="526" y="193" key="FileChooserDialogImpl" timestamp="1609563176248">
+    <state x="526" y="193" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1623822087661" />
+    <state x="518" y="295" key="NewPhpFileDialog" timestamp="1623834397043">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="526" y="193" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1609563176248" />
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1605972106421" />
-    <state x="537" y="175" key="NewPhpClassDialog" timestamp="1605957390731">
-      <screen x="0" y="40" width="1536" height="824" />
-    </state>
-    <state x="537" y="175" key="NewPhpClassDialog/0.40.1536.824@0.40.1536.824" timestamp="1605957390731" />
-    <state x="537" y="297" key="NewPhpFileDialog" timestamp="1609558286129">
+    <state x="518" y="295" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1623834397043" />
+    <state x="390" y="191" key="com.intellij.ide.util.TipDialog" timestamp="1623817841275">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="537" y="297" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1609558286129" />
-    <state x="604" y="376" key="NewPhpFileDialog/0.40.1536.824@0.40.1536.824" timestamp="1605958139722" />
-    <state x="277" y="57" key="SettingsEditor" timestamp="1605966609173">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1605966609173" />
-    <state x="390" y="191" key="com.intellij.ide.util.TipDialog" timestamp="1609434748283">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="390" y="191" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1609434748283" />
-    <state x="339" y="162" key="run.anything.popup" timestamp="1609535517765">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1609535517765" />
-    <state x="383" y="128" width="672" height="600" key="search.everywhere.popup" timestamp="1609559186337">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="383" y="128" width="672" height="600" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1609559186337" />
-    <state x="431" y="185" width="672" height="678" key="search.everywhere.popup/0.40.1536.824@0.40.1536.824" timestamp="1605958340526" />
+    <state x="390" y="191" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1623817841275" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -265,6 +296,10 @@
           <url>file://$PROJECT_DIR$/resources/views/dashboard/layouts/menu.blade.php</url>
           <line>13</line>
           <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/resources/views/dashboard/dashboard.blade.php</url>
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

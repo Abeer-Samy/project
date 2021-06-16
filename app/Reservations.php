@@ -17,7 +17,7 @@ use Illuminate\Database\Eloquent\Model;
         'numOfPerson',
         'tableRes',
         'menu_id'
-    //    'fileImage'
+
     ];
 
 }

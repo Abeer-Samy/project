@@ -12,9 +12,7 @@ $factory->define(Reservations::class, function (Faker $faker) {
         'email' => $this->faker->email,
         'numOfPerson' => random_int(20,200),
         'phoneNumber'=> $this->faker->randomNumber(9),
-        'feature_image' => 'posts/feature_images/img.jpg',
         'tableRes' => random_int(20,100000),
-        'menu_id' => \App\Menu::all()->random(),
-    'user_id' => \App\User::all()->random()
+        'menu_id' => \App\Menu::all()->random()
     ];
 });

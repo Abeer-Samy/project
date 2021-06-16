@@ -26,12 +26,12 @@ Route::post('register', 'AuthController@do_register')->name('do_register');
 Route::namespace('Dashboard')->middleware('auth')->name('dashboard.')->prefix('admin')->group(function () {
     Route::get('/', 'DashboardController@index')->name('home');
     Route::resource('reservations','ReservationController');
+    Route::resource('category','categorycontroller');
     Route::resource('Users','UserController');
 
 
 });
 
-//
 
 Route::get('/' , 'FrontsaiteController@showHome')->name('frontsite.home');
 Route::get('/about' , 'FrontsaiteController@showAbout')->name('frontsite.about');

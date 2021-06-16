@@ -30,8 +30,7 @@ class ReservationRequest extends FormRequest
                 'phoneNumber'=>'required|max:50',
                 'numOfPerson'=>'required|max:50',
                 'tableRes'=>'required|integer',
-                'menu_id'=>'required|integer',
-                'fileImage' => 'required|mimes:jpeg,png,bmp,jpg'
+                'menu_id'=>'required|integer'
 
         ];
     }
